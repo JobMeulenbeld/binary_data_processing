@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Testing_encoding.dir/main.cpp.o CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o -o Testing_encoding 

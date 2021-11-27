@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Decoding/Decoder.cpp
+iostream
+-
+Decoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Decoding/Decoder.h
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Decoding/Decoder.h
+fstream
+-
+string.h
+-
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Encoding/Encoder.h
+fstream
+-
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+bitset
+-
+vector
+-
+map
+-
+Decoding/Decoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Decoding/Decoder.h
+Encoding/Encoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Encoding/Encoder.h
+
