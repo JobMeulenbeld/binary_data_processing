@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Decoding/Decoder.cpp" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/cmake-build-debug/CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o"
-  "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/Encoding/Encoder.cpp" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/cmake-build-debug/CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o"
-  "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/main.cpp" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/Testing encoding/cmake-build-debug/CMakeFiles/Testing_encoding.dir/main.cpp.o"
+  "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Decoding/Decoder.cpp" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o"
+  "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Encoding/Encoder.cpp" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o"
+  "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles/Testing_encoding.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
