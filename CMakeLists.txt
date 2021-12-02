@@ -3,4 +3,4 @@ project(Testing_encoding)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Testing_encoding main.cpp Encoding/Encoder.cpp Encoding/Encoder.h Decoding/Decoder.cpp Decoding/Decoder.h)
+add_executable(Testing_encoding main.cpp Encoding/Encoder.cpp Encoding/Encoder.h Decoding/Decoder.cpp Decoding/Decoder.h Serializeable/Serializable.h "Custom classes/Source/classroom.cpp" "Custom classes/Header/classroom.h")

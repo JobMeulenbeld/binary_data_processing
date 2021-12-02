@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Header/classroom.h
+fstream
+-
+vector
+-
+map
+-
+../../Serializeable/Serializable.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.h
+fstream
+-
+string.h
+-
+sstream
+-
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.cpp
+iomanip
+-
+Encoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h
+fstream
+-
+bitset
+-
+iostream
+-
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
+
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+bitset
+-
+vector
+-
+map
+-
+Decoding/Decoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.h
+Encoding/Encoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h
+Custom classes/Header/classroom.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Header/classroom.h
+

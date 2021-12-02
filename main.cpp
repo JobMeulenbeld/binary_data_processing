@@ -7,8 +7,7 @@
 
 #include "Decoding/Decoder.h"
 #include "Encoding/Encoder.h"
-
-
+#include "Custom classes/Header/classroom.h"
 
 struct items{
     int item_a;
@@ -19,35 +18,70 @@ struct items{
     int item_f;
 };
 
-
-template <typename T> std::string type_name();
-int main()
-{
-    items list;
-    items list2;
-
-    list.item_a = 123;
-    list.item_b = 12.45;
-    list.item_c = 8921;
-    list.item_d = true;
-    list.item_e = 5123;
-    list.item_f = 8134;
-
+void test_variables(){
     Encoder encoder;
     Decoder decoder;
 
+    int in_value1 = 234;
+    float in_value2 = 45.478;
+    char* in_text1 = "This is a test";
+
+    std::ofstream outfile;
+    outfile.open ("test_var.txt");
+    encoder.encode(in_value1,outfile);
+    encoder.encode(in_value2,outfile);
+    encoder.encode(in_text1,outfile);
+    outfile.close();
+
+    int out_value1 = 0;
+    float out_value2 = 0;
+    char* out_text1 = "";
+
+    std::ifstream infile;
+    infile.open ("test_var.txt");
+    decoder.decode(&out_value1,infile);
+    decoder.decode(&out_value2, infile);
+    decoder.decode(&out_text1, infile);
+    infile.close();
+
+    std::cout << out_value1 << "\n";
+    std::cout << out_value2 << "\n";
+    std::cout << out_text1 << "\n";
+}
+
+void test_struct(){
+
+}
+
+void test_factory(){
+    classroom ETI2V_IB;
+    classroom ETI2V_IC;
+
+    ETI2V_IB.add_student("Job", "Meulenbeld");
+    ETI2V_IB.add_student("Kees", "Meulenbeld");
+    ETI2V_IB.add_student("Jack", "Meulenbeld");
+    ETI2V_IB.add_student("Bear", "Meulenbeld");
+    ETI2V_IB.add_student("Karl", "Meulenbeld");
+    ETI2V_IB.add_student("Johannes", "Meulenbeld");
+
+
     std::ofstream outfile;
     outfile.open ("encoded.txt");
-    encoder.encode((items)list, outfile);
+    ETI2V_IB.serialize(outfile);
     outfile.close();
 
     std::ifstream infile;
     infile.open ("encoded.txt");
-    decoder.decode(&list2, infile);
+    ETI2V_IC.deserialize(infile);
     infile.close();
 
-    std::cout << list2.item_a;
+    ETI2V_IC.print_class();
+}
 
+template <typename T> std::string type_name();
+int main()
+{
+    test_variables();
     return 0;
 }
 

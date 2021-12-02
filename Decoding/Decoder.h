@@ -8,31 +8,22 @@
 
 #include <fstream>
 #include <string.h>
+#include <sstream>
 
 class Decoder {
 public:
     template<typename T>
     void decode(T* ptr, std::ifstream& file){
-        std::string line;
-        std::getline(file,line);
-        std::cout << line;
 
-        std::cout << "\n";
+        char bytes[sizeof(T)];
+        std::string x;
 
-        int n = line.length() / 2;
-
-        char * array = new char[n];
-        strcpy(array, line.c_str());
-
-        for(int i = 0; i < n; i++){
-            //TODO Go over the substring, take 2 chars at the same time, convert them to int b_16?
-            std::cout << array[i];
+        for(int i = 0; i < sizeof(T); i++){
+            file >> x;
+            bytes[i] = static_cast<char>(stoi(x, 0, 2));
         }
-
-        memcpy(ptr,array,n);
-        std::cout << "\n";
+        memcpy(ptr,&bytes, sizeof(T));
     }
-
 };
 
 

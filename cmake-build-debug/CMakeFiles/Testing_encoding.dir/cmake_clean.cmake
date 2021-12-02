@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o"
   "CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o"
   "CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o"
   "CMakeFiles/Testing_encoding.dir/main.cpp.o"

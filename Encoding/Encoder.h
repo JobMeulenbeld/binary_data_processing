@@ -7,19 +7,23 @@
 
 
 #include <fstream>
+#include <bitset>
+#include <iostream>
 
 
 class Encoder {
 public:
     template <typename T>
-    void encode (T n, std::ofstream& file) {
+    void encode (T &n, std::ofstream& file) {
         char *ptr = reinterpret_cast<char*>(&n);
         for (int i = 0; i < sizeof(T); i++) {
             unsigned int byte = static_cast<unsigned int>(ptr[i]);
 
-            //std::bitset<8> x(byte);
-            //std::cout << x << " ";
-            file << std::setw(2) << std::setfill('0') << std::hex << (byte & 0xff) << " ";
+            std::bitset<8> x(byte);
+            file << x << " ";
+
+            //Hex line
+            //file << std::setw(2) << std::setfill('0') << std::hex << (byte & 0xff) << " ";
         }
     }
 };

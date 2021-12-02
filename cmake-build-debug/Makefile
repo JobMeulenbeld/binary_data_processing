@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ Testing_encoding: cmake_check_build_system
 Testing_encoding/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/build
 .PHONY : Testing_encoding/fast
+
+Custom_classes/Source/classroom.o: Custom_classes/Source/classroom.cpp.o
+.PHONY : Custom_classes/Source/classroom.o
+
+# target to build an object file
+Custom_classes/Source/classroom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o
+.PHONY : Custom_classes/Source/classroom.cpp.o
+
+Custom_classes/Source/classroom.i: Custom_classes/Source/classroom.cpp.i
+.PHONY : Custom_classes/Source/classroom.i
+
+# target to preprocess a source file
+Custom_classes/Source/classroom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.i
+.PHONY : Custom_classes/Source/classroom.cpp.i
+
+Custom_classes/Source/classroom.s: Custom_classes/Source/classroom.cpp.s
+.PHONY : Custom_classes/Source/classroom.s
+
+# target to generate assembly for a file
+Custom_classes/Source/classroom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.s
+.PHONY : Custom_classes/Source/classroom.cpp.s
 
 Decoding/Decoder.o: Decoding/Decoder.cpp.o
 .PHONY : Decoding/Decoder.o
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Testing_encoding"
+	@echo "... Custom_classes/Source/classroom.o"
+	@echo "... Custom_classes/Source/classroom.i"
+	@echo "... Custom_classes/Source/classroom.s"
 	@echo "... Decoding/Decoder.o"
 	@echo "... Decoding/Decoder.i"
 	@echo "... Decoding/Decoder.s"
