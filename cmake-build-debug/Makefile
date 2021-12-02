@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,77 +129,125 @@ Testing_encoding/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/build
 .PHONY : Testing_encoding/fast
 
-Custom_classes/Source/classroom.o: Custom_classes/Source/classroom.cpp.o
-.PHONY : Custom_classes/Source/classroom.o
+Serializeable/Custom_classes/Performers/Performers_collection.o: Serializeable/Custom_classes/Performers/Performers_collection.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.o
 
 # target to build an object file
-Custom_classes/Source/classroom.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o
-.PHONY : Custom_classes/Source/classroom.cpp.o
+Serializeable/Custom_classes/Performers/Performers_collection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.cpp.o
 
-Custom_classes/Source/classroom.i: Custom_classes/Source/classroom.cpp.i
-.PHONY : Custom_classes/Source/classroom.i
+Serializeable/Custom_classes/Performers/Performers_collection.i: Serializeable/Custom_classes/Performers/Performers_collection.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.i
 
 # target to preprocess a source file
-Custom_classes/Source/classroom.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.i
-.PHONY : Custom_classes/Source/classroom.cpp.i
+Serializeable/Custom_classes/Performers/Performers_collection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.cpp.i
 
-Custom_classes/Source/classroom.s: Custom_classes/Source/classroom.cpp.s
-.PHONY : Custom_classes/Source/classroom.s
+Serializeable/Custom_classes/Performers/Performers_collection.s: Serializeable/Custom_classes/Performers/Performers_collection.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.s
 
 # target to generate assembly for a file
-Custom_classes/Source/classroom.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.s
-.PHONY : Custom_classes/Source/classroom.cpp.s
+Serializeable/Custom_classes/Performers/Performers_collection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Performers_collection.cpp.s
 
-Decoding/Decoder.o: Decoding/Decoder.cpp.o
-.PHONY : Decoding/Decoder.o
+Serializeable/Custom_classes/Performers/Source/Athlete.o: Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.o
 
 # target to build an object file
-Decoding/Decoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o
-.PHONY : Decoding/Decoder.cpp.o
+Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o
 
-Decoding/Decoder.i: Decoding/Decoder.cpp.i
-.PHONY : Decoding/Decoder.i
+Serializeable/Custom_classes/Performers/Source/Athlete.i: Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.i
 
 # target to preprocess a source file
-Decoding/Decoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.i
-.PHONY : Decoding/Decoder.cpp.i
+Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i
 
-Decoding/Decoder.s: Decoding/Decoder.cpp.s
-.PHONY : Decoding/Decoder.s
+Serializeable/Custom_classes/Performers/Source/Athlete.s: Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.s
 
 # target to generate assembly for a file
-Decoding/Decoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.s
-.PHONY : Decoding/Decoder.cpp.s
+Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s
 
-Encoding/Encoder.o: Encoding/Encoder.cpp.o
-.PHONY : Encoding/Encoder.o
+Serializeable/Custom_classes/Performers/Source/Musician.o: Serializeable/Custom_classes/Performers/Source/Musician.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.o
 
 # target to build an object file
-Encoding/Encoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o
-.PHONY : Encoding/Encoder.cpp.o
+Serializeable/Custom_classes/Performers/Source/Musician.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.cpp.o
 
-Encoding/Encoder.i: Encoding/Encoder.cpp.i
-.PHONY : Encoding/Encoder.i
+Serializeable/Custom_classes/Performers/Source/Musician.i: Serializeable/Custom_classes/Performers/Source/Musician.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.i
 
 # target to preprocess a source file
-Encoding/Encoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.i
-.PHONY : Encoding/Encoder.cpp.i
+Serializeable/Custom_classes/Performers/Source/Musician.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.cpp.i
 
-Encoding/Encoder.s: Encoding/Encoder.cpp.s
-.PHONY : Encoding/Encoder.s
+Serializeable/Custom_classes/Performers/Source/Musician.s: Serializeable/Custom_classes/Performers/Source/Musician.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.s
 
 # target to generate assembly for a file
-Encoding/Encoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.s
-.PHONY : Encoding/Encoder.cpp.s
+Serializeable/Custom_classes/Performers/Source/Musician.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Musician.cpp.s
+
+Serializeable/Custom_classes/Performers/Source/Performer.o: Serializeable/Custom_classes/Performers/Source/Performer.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.o
+
+# target to build an object file
+Serializeable/Custom_classes/Performers/Source/Performer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.cpp.o
+
+Serializeable/Custom_classes/Performers/Source/Performer.i: Serializeable/Custom_classes/Performers/Source/Performer.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.i
+
+# target to preprocess a source file
+Serializeable/Custom_classes/Performers/Source/Performer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.i
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.cpp.i
+
+Serializeable/Custom_classes/Performers/Source/Performer.s: Serializeable/Custom_classes/Performers/Source/Performer.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.s
+
+# target to generate assembly for a file
+Serializeable/Custom_classes/Performers/Source/Performer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.s
+.PHONY : Serializeable/Custom_classes/Performers/Source/Performer.cpp.s
+
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.o: Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.o
+
+# target to build an object file
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o
+
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.i: Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.i
+
+# target to preprocess a source file
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i
+
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.s: Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.s
+
+# target to generate assembly for a file
+Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s
+.PHONY : Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -234,15 +282,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Testing_encoding"
-	@echo "... Custom_classes/Source/classroom.o"
-	@echo "... Custom_classes/Source/classroom.i"
-	@echo "... Custom_classes/Source/classroom.s"
-	@echo "... Decoding/Decoder.o"
-	@echo "... Decoding/Decoder.i"
-	@echo "... Decoding/Decoder.s"
-	@echo "... Encoding/Encoder.o"
-	@echo "... Encoding/Encoder.i"
-	@echo "... Encoding/Encoder.s"
+	@echo "... Serializeable/Custom_classes/Performers/Performers_collection.o"
+	@echo "... Serializeable/Custom_classes/Performers/Performers_collection.i"
+	@echo "... Serializeable/Custom_classes/Performers/Performers_collection.s"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Athlete.o"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Athlete.i"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Athlete.s"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Musician.o"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Musician.i"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Musician.s"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Performer.o"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Performer.i"
+	@echo "... Serializeable/Custom_classes/Performers/Source/Performer.s"
+	@echo "... Serializeable/Custom_classes/Student_Classroom/Source/classroom.o"
+	@echo "... Serializeable/Custom_classes/Student_Classroom/Source/classroom.i"
+	@echo "... Serializeable/Custom_classes/Student_Classroom/Source/classroom.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

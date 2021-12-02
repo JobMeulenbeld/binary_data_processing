@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Testing_encoding.dir/clean
 CMakeFiles/Testing_encoding.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Testing_encoding.dir/build.make CMakeFiles/Testing_encoding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target Testing_encoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target Testing_encoding"
 .PHONY : CMakeFiles/Testing_encoding.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Testing_encoding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Testing_encoding.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Testing_encoding.dir/rule
 
 # Convenience name for target.

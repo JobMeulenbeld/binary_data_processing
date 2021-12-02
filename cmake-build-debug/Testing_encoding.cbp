@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Testing_encoding">
-				<Option output="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/Testing_encoding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/Testing_encoding" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing_encoding"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing_encoding"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Testing_encoding/fast">
-				<Option output="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/Testing_encoding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/Testing_encoding" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,38 +75,59 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing_encoding/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/meule/Documents/School/APC/Binary\ data\ processing/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing_encoding/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/mnt/c/Users/meule/Documents/School/Advanced\ Programming\ Concepts/binary_data_processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Header/classroom.h">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Decoding/Decoder.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Source/classroom.cpp">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Encoding/Encoder.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.cpp">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.h">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Musician.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.cpp">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.cpp">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.h">
 			<Option target="Testing_encoding"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Athlete.cpp">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Musician.cpp">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Performer.cpp">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Header/classroom.h">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Source/classroom.cpp">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Serializable.h">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp">
+			<Option target="Testing_encoding"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Testing_encoding.dir/depend.make
@@ -68,73 +68,103 @@ include CMakeFiles/Testing_encoding.dir/flags.make
 
 CMakeFiles/Testing_encoding.dir/main.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
 CMakeFiles/Testing_encoding.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Testing_encoding.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/main.cpp.o -c "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Testing_encoding.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/main.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp"
 
 CMakeFiles/Testing_encoding.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp" > CMakeFiles/Testing_encoding.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp" > CMakeFiles/Testing_encoding.dir/main.cpp.i
 
 CMakeFiles/Testing_encoding.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp" -o CMakeFiles/Testing_encoding.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp" -o CMakeFiles/Testing_encoding.dir/main.cpp.s
 
-CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
-CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o: ../Encoding/Encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o -c "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.cpp"
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o: ../Serializeable/Custom\ classes/Student\ Classroom/Source/classroom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Source/classroom.cpp"
 
-CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.cpp" > CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.i
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Source/classroom.cpp" > CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.i
 
-CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.cpp" -o CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.s
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Source/classroom.cpp" -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.s
 
-CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
-CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o: ../Decoding/Decoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o -c "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.cpp"
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o: ../Serializeable/Custom\ classes/Performers/Source/Performer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Performer.cpp"
 
-CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.cpp" > CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.i
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Performer.cpp" > CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.i
 
-CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.cpp" -o CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.s
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Performer.cpp" -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.s
 
-CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
-CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o: ../Custom\ classes/Source/classroom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o -c "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Source/classroom.cpp"
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o: ../Serializeable/Custom\ classes/Performers/Source/Musician.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Musician.cpp"
 
-CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Source/classroom.cpp" > CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.i
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Musician.cpp" > CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.i
 
-CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Custom classes/Source/classroom.cpp" -o CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.s
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Musician.cpp" -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.s
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o: ../Serializeable/Custom\ classes/Performers/Source/Athlete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Athlete.cpp"
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Athlete.cpp" > CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.i
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Athlete.cpp" -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.s
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o: CMakeFiles/Testing_encoding.dir/flags.make
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o: ../Serializeable/Custom\ classes/Performers/Performers_collection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o -c "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.cpp"
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.cpp" > CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.i
+
+CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.cpp" -o CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.s
 
 # Object files for target Testing_encoding
 Testing_encoding_OBJECTS = \
 "CMakeFiles/Testing_encoding.dir/main.cpp.o" \
-"CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o" \
-"CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o" \
-"CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o"
+"CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o" \
+"CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o" \
+"CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o" \
+"CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o" \
+"CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o"
 
 # External object files for target Testing_encoding
 Testing_encoding_EXTERNAL_OBJECTS =
 
 Testing_encoding: CMakeFiles/Testing_encoding.dir/main.cpp.o
-Testing_encoding: CMakeFiles/Testing_encoding.dir/Encoding/Encoder.cpp.o
-Testing_encoding: CMakeFiles/Testing_encoding.dir/Decoding/Decoder.cpp.o
-Testing_encoding: CMakeFiles/Testing_encoding.dir/Custom_classes/Source/classroom.cpp.o
+Testing_encoding: CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Student_Classroom/Source/classroom.cpp.o
+Testing_encoding: CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Performer.cpp.o
+Testing_encoding: CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Musician.cpp.o
+Testing_encoding: CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Source/Athlete.cpp.o
+Testing_encoding: CMakeFiles/Testing_encoding.dir/Serializeable/Custom_classes/Performers/Performers_collection.cpp.o
 Testing_encoding: CMakeFiles/Testing_encoding.dir/build.make
 Testing_encoding: CMakeFiles/Testing_encoding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Testing_encoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Testing_encoding"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Testing_encoding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +176,6 @@ CMakeFiles/Testing_encoding.dir/clean:
 .PHONY : CMakeFiles/Testing_encoding.dir/clean
 
 CMakeFiles/Testing_encoding.dir/depend:
-	cd "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug" "/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug/CMakeFiles/Testing_encoding.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug" "/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug/CMakeFiles/Testing_encoding.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Testing_encoding.dir/depend
 
