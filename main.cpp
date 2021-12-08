@@ -1,15 +1,14 @@
 #include <iostream>
 #include <iomanip>
-#include <fstream>
 #include <bitset>
-#include <vector>
-#include <map>
 
 #include "Decoding/Decoder.h"
 #include "Encoding/Encoder.h"
 #include "Serializeable/Custom classes/Student Classroom/Header/classroom.h"
 #include "Serializeable/Custom classes/Performers/Header/Performer.h"
 #include "Serializeable/Custom classes/Performers/Header/Athlete.h"
+#include "Serializeable/Custom classes/Performers/Header/Musician.h"
+#include "Serializeable/Custom classes/Performers/Performers_collection.h"
 
 struct items{
     int item_a;
@@ -99,7 +98,7 @@ void test_factory(){
     ETI2V_IC.print_class();
 }
 
-void test_unique_ptr(){
+void test_ptr(){
     Performer p1("Job","Meulenbeld",std::make_unique<Athlete>());
 
     std::ofstream outfile;
@@ -116,10 +115,59 @@ void test_unique_ptr(){
     std::cout << p2.get_f_name() << "\n" << p2.get_l_name() << "\n" << p2.get_performer_type() << "\n";
 }
 
+void test_collection_pointers(){
+    Performer p1("Job","Meulenbeld",std::make_unique<Musician>());
+    Performer p2("Arief","Kurniawan",std::make_unique<Musician>());
+    Performer p3("Mihhail","Tsulinda",std::make_unique<Musician>());
+    Performer p4("Maurits","Hameter",std::make_unique<Athlete>());
+    Performer p5("Tim","ter Stege",std::make_unique<Athlete>());
+    Performer p6("Igor","Belak",std::make_unique<Athlete>());
+    Performer p7("Robert","de Groote",std::make_unique<Athlete>());
+    Performer p8("Nicky", "Ichov", std::make_unique<Musician>());
+    Performer p9("Mihhail", "Bachvarov", std::make_unique<Musician>());
+    Performer p10("Andy", "Wang", std::make_unique<Athlete>());
+    Performer p11("Nian", "Luisman", std::make_unique<Musician>());
+    Performer p12("Bob", "Aaldering", std::make_unique<Musician>());
+    Performer p13("Max", "Thielen", std::make_unique<Musician>());
+    Performer p14("Elitsa", "Marinova", std::make_unique<Musician>());
+
+
+
+    Performers_collection collection;
+
+    collection.add_performer(p1);
+    collection.add_performer(p2);
+    collection.add_performer(p3);
+    collection.add_performer(p4);
+    collection.add_performer(p5);
+    collection.add_performer(p6);
+    collection.add_performer(p7);
+    collection.add_performer(p8);
+    collection.add_performer(p9);
+    collection.add_performer(p11);
+    collection.add_performer(p12);
+    collection.add_performer(p13);
+    collection.add_performer(p14);
+
+
+    std::ofstream outfile;
+    outfile.open ("test_ptr_collection.txt");
+    collection.serialize(outfile);
+    outfile.close();
+
+    Performers_collection collection2;
+    std::ifstream infile;
+    infile.open ("test_ptr_collection.txt");
+    collection2.deserialize(infile);
+    infile.close();
+
+    collection2.print_performers();
+}
+
 template <typename T> std::string type_name();
 int main()
 {
-    test_unique_ptr();
+    test_collection_pointers();
     return 0;
 }
 

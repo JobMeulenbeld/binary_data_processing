@@ -14,14 +14,19 @@ class Decoder {
 public:
     template<typename T>
     void decode(T* ptr, std::ifstream& file){
-
+        //char array with the size of the type T
         char bytes[sizeof(T)];
-        std::string x;
+        //String to store the read byte
+        std::string s;
 
+        //For loop to go over the amount of bytes (equal to the size of T)
         for(int i = 0; i < sizeof(T); i++){
-            file >> x;
-            bytes[i] = static_cast<char>(stoi(x, 0, 2));
+            //Read a byte
+            file >> s;
+            //Cast the byte from string -> int -> char and store it in the char array
+            bytes[i] = static_cast<char>(stoi(s, 0, 2));
         }
+        //Copy the char array into the memory address of the given variable/element
         memcpy(ptr,&bytes, sizeof(T));
     }
 };

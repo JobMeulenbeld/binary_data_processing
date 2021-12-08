@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Decoding/Decoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.h
 fstream
 -
 string.h
@@ -14,7 +14,7 @@ string.h
 sstream
 -
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Encoding/Encoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h
 fstream
 -
 bitset
@@ -22,61 +22,37 @@ bitset
 iostream
 -
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
 ../Performer_Type.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Musician.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Musician.h
 ../Performer_Type.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
 fstream
 -
 memory
 -
 ../../../Serializable.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Serializable.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
 ../Performer_Type.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performer_Type.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.cpp
-bitset
--
-cstring
--
-Performers_collection.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.h
-Header/Athlete.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
-
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.h
 fstream
 -
 vector
 -
 ../../Serializable.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Serializable.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
 Header/Performer.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Source/Performer.cpp
-iostream
--
-bitset
--
-cstring
--
-../Header/Performer.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
-../Header/Musician.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Musician.h
-../Header/Athlete.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
-
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Header/classroom.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Student Classroom/Header/classroom.h
 fstream
 -
 vector
@@ -84,31 +60,29 @@ vector
 map
 -
 ../../../Serializable.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Serializable.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Serializable.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Serializable.h
 
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/main.cpp
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/main.cpp
 iostream
 -
 iomanip
 -
-fstream
--
 bitset
 -
-vector
--
-map
--
 Decoding/Decoder.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Decoding/Decoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Decoding/Decoder.h
 Encoding/Encoder.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Encoding/Encoder.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Encoding/Encoder.h
 Serializeable/Custom classes/Student Classroom/Header/classroom.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Student Classroom/Header/classroom.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Student Classroom/Header/classroom.h
 Serializeable/Custom classes/Performers/Header/Performer.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Performer.h
 Serializeable/Custom classes/Performers/Header/Athlete.h
-/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Athlete.h
+Serializeable/Custom classes/Performers/Header/Musician.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Header/Musician.h
+Serializeable/Custom classes/Performers/Performers_collection.h
+/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/Serializeable/Custom classes/Performers/Performers_collection.h
 

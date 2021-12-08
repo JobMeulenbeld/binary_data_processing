@@ -12,12 +12,16 @@
 Performer::Performer() {
 }
 
+//Constructor performer
 Performer::Performer(char* first_name, char* last_name, std::unique_ptr<Performer_Type> performer_type) :
 m_f_name{first_name},
 m_l_name{last_name},
 m_performer_type{std::move(performer_type)}
 {}
 
+/*
+ * Serialize
+ * */
 void Performer::serialize(std::ofstream &file) {
     char *ptr_fname = reinterpret_cast<char*>(&m_f_name);
     for(int i = 0; i < sizeof(m_f_name); i++){
@@ -97,3 +101,4 @@ char* Performer::get_l_name() {
 char* Performer::get_performer_type() {
     return m_performer_type->get_type();
 }
+

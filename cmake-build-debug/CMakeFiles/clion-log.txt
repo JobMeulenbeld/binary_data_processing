@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' '/mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing'; exitcode=$?; sleep 0.001; (exit $exitcode)"
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' '/mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing'; exitcode=$?; sleep 0.001; (exit $exitcode)"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/meule/Documents/School/Advanced Programming Concepts/binary_data_processing/cmake-build-debug
+-- Build files have been written to: /mnt/c/Users/meule/Documents/School/APC/Binary data processing/binary_data_processing/cmake-build-debug

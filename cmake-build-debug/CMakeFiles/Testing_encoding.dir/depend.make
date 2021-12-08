@@ -31,8 +31,10 @@ CMakeFiles/Testing_encoding.dir/main.cpp.o: \
  ../Decoding/Decoder.h \
  ../Encoding/Encoder.h \
  ../Serializeable/Custom\ classes/Performers/Header/Athlete.h \
+ ../Serializeable/Custom\ classes/Performers/Header/Musician.h \
  ../Serializeable/Custom\ classes/Performers/Header/Performer.h \
  ../Serializeable/Custom\ classes/Performers/Performer_Type.h \
+ ../Serializeable/Custom\ classes/Performers/Performers_collection.h \
  ../Serializeable/Custom\ classes/Student\ Classroom/Header/classroom.h \
  ../Serializeable/Serializable.h \
  ../main.cpp

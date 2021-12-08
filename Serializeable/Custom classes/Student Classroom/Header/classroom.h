@@ -11,11 +11,20 @@
 #include <map>
 #include "../../../Serializable.h"
 
+/*
+ * Struct to resemble a student
+ * */
 struct student{
     char* f_name;
     char* l_name;
 };
 
+/*
+ * A class called classroom
+ * It is serializable hence the use of the Serializable interface
+ * It has some standard functions
+ * m_students -> vector which stores a list of students.
+ * */
 class classroom : public Serializable {
 public:
     void serialize(std::ofstream &file) override;

@@ -15,14 +15,18 @@ class Encoder {
 public:
     template <typename T>
     void encode (T &n, std::ofstream& file) {
+        //Cast the variable/element into a char array.
         char *ptr = reinterpret_cast<char*>(&n);
+        //For loop to go over the size of the variable/element (amount of bytes)
         for (int i = 0; i < sizeof(T); i++) {
+            //Cast the i address element into a value
             unsigned int byte = static_cast<unsigned int>(ptr[i]);
 
+            //Bitset is a function which returns a binary representation of a given value;
             std::bitset<8> x(byte);
             file << x << " ";
 
-            //Hex line
+            //Hex line for testing purposes (gives the hex representation of the memory address)
             //file << std::setw(2) << std::setfill('0') << std::hex << (byte & 0xff) << " ";
         }
     }

@@ -5,7 +5,9 @@
 #ifndef TESTING_ENCODING_SERIALIZABLE_H
 #define TESTING_ENCODING_SERIALIZABLE_H
 
-
+/*
+ * Interface for each class which is serializable
+ * */
 class Serializable {
 public:
     virtual void serialize(std::ofstream &file) = 0;

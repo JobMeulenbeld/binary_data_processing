@@ -30,7 +30,7 @@ public:
 private:
     char* m_f_name;
     char* m_l_name;
-    std::unique_ptr<Performer_Type> m_performer_type;
+    std::shared_ptr<Performer_Type> m_performer_type;
 };
 
 
