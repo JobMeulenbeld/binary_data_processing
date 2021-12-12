@@ -17,6 +17,12 @@ struct items{
     bool item_d;
 };
 
+struct person{
+    std::string first_name;
+    std::string last_name;
+    int age;
+};
+
 void test_variables(){
     Encoder encoder;
     Decoder decoder;
@@ -144,6 +150,7 @@ void test_collection_pointers(){
     collection.add_performer(p7);
     collection.add_performer(p8);
     collection.add_performer(p9);
+    collection.add_performer(p10);
     collection.add_performer(p11);
     collection.add_performer(p12);
     collection.add_performer(p13);

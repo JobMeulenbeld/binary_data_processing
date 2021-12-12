@@ -25,9 +25,6 @@ public:
             //Bitset is a function which returns a binary representation of a given value;
             std::bitset<8> x(byte);
             file << x << " ";
-
-            //Hex line for testing purposes (gives the hex representation of the memory address)
-            //file << std::setw(2) << std::setfill('0') << std::hex << (byte & 0xff) << " ";
         }
     }
 };
